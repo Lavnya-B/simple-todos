@@ -1,0 +1,44 @@
+.simple-todos-bg-container {
+  background-color: #ffc2a0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.todos-card-container {
+  background-color: #ffffff;
+  width: 90%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  align-items: center;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  max-width: 1110px;
+}
+@media screen and (min-width: 768px) {
+  .todos-card-container {
+    padding: 48px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
+}
+.heading {
+  color: #ff8542;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
+}
+.todos-list {
+  padding-left: 0px;
+}
